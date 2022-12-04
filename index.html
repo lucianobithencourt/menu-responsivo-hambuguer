@@ -17,10 +17,13 @@
     <!-- CSS NORMALIZE -->
     <link rel="stylesheet" href="assets/css/normalize.css">
 
+    <!-- MEDIA QUERY -->
+    <link rel="stylesheet" href="assets/css/media-query.css">
+
     <title>Menu Responsivel</title>
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
 
     <header>
         <h1>Menu Hambuguer</h1>
@@ -59,6 +62,15 @@
 
     <!-- JSCRIPT -->
     <script>
+        function mudouTamanho(){
+            if (window.innerWidth >=768) {
+                itens_nav.style.display='block'
+            } else {
+                itens_nav.style.display = 'none'
+            }
+        }
+
+
         function navItens() {
             if (itens_nav.style.display=='block') {
                 itens_nav.style.display='none';
