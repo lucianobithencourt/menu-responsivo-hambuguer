@@ -21,7 +21,7 @@ h1 {
 }
 
 nav {
-    display: block;
+    display: none;
 }
 
 nav > ul {
@@ -39,7 +39,9 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-    background-color:gray;
+    background-color:rgb(88, 252, 70);
+    font-weight: bold;
+    color: purple;
 }
 
 main {
@@ -64,4 +66,17 @@ article > p {
 
 /* CSS ICON  */
 
+#menu-burguer {
+    display: block;
+    background-color:greenyellow;
+    color: purple;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu-burguer:hover {
+    cursor: pointer;
+    
+
+}
 

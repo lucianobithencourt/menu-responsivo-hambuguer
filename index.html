@@ -20,18 +20,20 @@
 
     <header>
         <h1>Menu Hambuguer</h1>
-        
-        
-            <nav>
-                <ul>
-                    <li> <a href="#">Opção-1</a> </li>
-                    <li> <a href="#">Opção-2 </a></li>
-                    <li> <a href="#">Opção-3</a> </li>
-                    <li> <a href="#">Opção-4</a> </li>
-                    <li> <a href="#">Opção-4</a> </li>
-                </ul>
-            </nav>
-        
+        <span id="menu-burguer" onclick="navItens()"  class="material-symbols-outlined">
+            menu
+            </span>
+
+        <nav id="itens_nav">
+            <ul>
+                <li> <a href="#">Opção-1</a> </li>
+                <li> <a href="#">Opção-2 </a></li>
+                <li> <a href="#">Opção-3</a> </li>
+                <li> <a href="#">Opção-4</a> </li>
+                <li> <a href="#">Opção-4</a> </li>
+            </ul>
+        </nav>
+
     </header>
 
     <main>
@@ -52,7 +54,15 @@
     </main>
 
     <!-- JSCRIPT -->
-
+    <script>
+        function navItens() {
+            if (itens_nav.style.display=='block') {
+                itens_nav.style.display='none';
+            } else {
+                itens_nav.style.display='block';
+            }
+        }
+    </script>
 
 
 
