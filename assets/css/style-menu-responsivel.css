@@ -20,15 +20,15 @@ h1 {
     text-align: center;
 }
 
-menu {
-    display: none;
+nav {
+    display: block;
 }
 
-menu > ul {
+nav > ul {
     list-style-type: none;
 }
 
-menu > ul > li > a {
+nav > ul > li > a {
     display:block;
     padding: 10px;
     text-decoration: none;
@@ -38,7 +38,7 @@ menu > ul > li > a {
     border-top: 2px solid gray;
 }
 
-menu > ul > li > a:hover {
+nav > ul > li > a:hover {
     background-color:gray;
 }
 
@@ -62,18 +62,6 @@ article > p {
     text-indent: 20px;
 }
 
-#menu-burguer{
-    display: block;
-    background-color:rgb(71, 71, 70);
-    text-align: center;
-    color: white;
-    padding: 10px;
-    
-}
+/* CSS ICON  */
 
-#menu-burguer:hover{
-    background-color:greenyellow;
-    cursor: pointer;
-    color:purple;
-}
 
