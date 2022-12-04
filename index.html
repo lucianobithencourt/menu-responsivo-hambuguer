@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    
+
+    <link rel="stylesheet" href="assets/css/style-menu-responsivel.css">
+
+    <title>Menu Responsivel</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Menu Hambuguer</h1>
+        <span id="menu-burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+
+        <menu id="itens">
+            <ul>
+                <li> <a href="#">Opção-1</a> </li>
+                <li> <a href="#">Opção-2 </a></li>
+                <li> <a href="#">Opção-3</a> </li>
+                <li> <a href="#">Opção-4</a> </li>
+                <li> <a href="#">Opção-4</a> </li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eligendi fugiat magnam cum. Accusamus omnis obcaecati ducimus possimus praesentium ratione ullam aperiam voluptatum voluptas quaerat modi minima blanditiis, minus commodi?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure ducimus, aspernatur ipsa mollitia quasi explicabo esse ut impedit enim dolorum facilis necessitatibus vel itaque voluptatum placeat dolor corporis consequuntur. Aut.
+            </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eligendi fugiat magnam cum. Accusamus omnis obcaecati ducimus possimus praesentium ratione ullam aperiam voluptatum voluptas quaerat modi minima blanditiis, minus commodi?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure ducimus, aspernatur ipsa mollitia quasi explicabo esse ut impedit enim dolorum facilis necessitatibus vel itaque voluptatum placeat dolor corporis consequuntur. Aut.
+            </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eligendi fugiat magnam cum. Accusamus omnis obcaecati ducimus possimus praesentium ratione ullam aperiam voluptatum voluptas quaerat modi minima blanditiis, minus commodi?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure ducimus, aspernatur ipsa mollitia quasi explicabo esse ut impedit enim dolorum facilis necessitatibus vel itaque voluptatum placeat dolor corporis consequuntur. Aut.
+            </p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu(){
+            if (itens.style.display=='block') {
+                itens.style.display='none';
+            } else {
+                itens.style.display='block';
+            }
+        }
+    </script>
+
+    
+</body>
+
+</html>
